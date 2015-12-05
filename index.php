@@ -17,16 +17,21 @@
 <body>
     <div class="container-fluid">
         <header class="row">
-
+            <h1><?php echo "HEADER"; ?></h1>
         </header>
         <nav class="row">
-
+            <h1><?php echo "MENU"; ?></h1>
         </nav>
         <section class="row">
-
+            <div class="col-md-8">
+                <h1><?php echo "BODY"; ?></h1>
+            </div>
+            <div class="col-md-4">
+                <h1><?php echo "SIDEBAR"; ?></h1>
+            </div>
         </section>
         <footer class="row">
-
+            <h1><?php echo "FOOTER"; ?></h1>
         </footer>
     </div>
 </body>
