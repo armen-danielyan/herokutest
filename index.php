@@ -24,10 +24,14 @@
         </nav>
         <section class="row">
             <div class="col-md-8">
-                <h1><?php echo "BODY"; ?></h1>
+                <div class="row">
+                    <h1><?php echo "BODY"; ?></h1>
+                </div>
             </div>
             <div class="col-md-4">
-                <h1><?php echo "SIDEBAR"; ?></h1>
+                <div class="row">
+                    <h1><?php echo "SIDEBAR"; ?></h1>
+                </div>
             </div>
         </section>
         <footer class="row">
